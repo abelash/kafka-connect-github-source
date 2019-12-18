@@ -64,7 +64,7 @@ public class GitHubSourceConnectorConfigTest {
 
     @Test
     public void validateUsername() {
-        config.put(AUTH_USERNAME_CONFIG, "username");
+        config.put(AUTH_USERNAME_CONFIG, "usernameOLALAL");
         ConfigValue configValue = configDef.validateAll(config).get(AUTH_USERNAME_CONFIG);
         assertEquals(configValue.errorMessages().size(), 0);
     }
